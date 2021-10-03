@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button } from 'react-bootstrap';
+import NewsContainer from './components/NewsContainer/NewsContainer';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Button>Click</Button>
+      <NewsContainer></NewsContainer>
     </div>
   );
 }
